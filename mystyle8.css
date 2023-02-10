@@ -11,19 +11,6 @@ html {
     background-color: #FFFBF2;
   }
 
-  h1 {
-    text-align: left;
-    font-size: 100px;
-    font-family: 'Inter', sans-serif;
-   color: #010A10;
-  }
-  p {
-    text-align: left;
-    font-size: 50px;
-    font-family: 'Inter', sans-serif;
-   color: #010A10;
-  }
-
   .flex-container {
     display: flex;
    flex-direction: row;
