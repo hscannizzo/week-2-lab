@@ -11,41 +11,36 @@ html {
     background-color: #FFFBF2;
   }
 
-  h1{
+  h1 {
     text-align: left;
-    font-size:100px;
+    font-size: 100px;
     font-family: 'Inter', sans-serif;
-   color: #010A10;  
+   color: #010A10;
   }
 
-  p{
-    color: #010A10; 
+ .Raphael {
     font-size:50px;
     font-family: 'Inter', sans-serif;
-    padding-left: 15px;
-  }
-  label {
-    display: block;
-    margin-top: 1em;
+   color: 	#e3331c; 
+ }
+
+.Michelangelo {
     font-size:50px;
     font-family: 'Inter', sans-serif;
-    padding-left: 15px;
+   color: #ffa500; 
 }
 
-input:focus {
-    background-color: #C10206;
+.Leonardo {
     font-size:50px;
     font-family: 'Inter', sans-serif;
-    padding-left: 15px;
+   color: #aa1bdd;   
 }
 
-select:focus {
-    background-color: #FFFBF2;
+.Donatello {
     font-size:50px;
     font-family: 'Inter', sans-serif;
-    padding-left: 15px;
+   color:#00aae6; 
 }
-
 
   .flex-container {
     display: flex;
@@ -78,7 +73,6 @@ select:focus {
     font-family: 'Inter', sans-serif;
    color: #010A10;
   }
-
   a:link {
     color: #010A10;
     text-decoration: none;
@@ -97,9 +91,4 @@ select:focus {
   a:active {
     color: #010A10;
     text-decoration: none;
-  }
-  a:focus {
-    background-color: #010A10;
-    color: #c0bbaf;
-    text-decoration: none; 
   }
