@@ -9,29 +9,21 @@ html {
     margin: 1rem;
     line-height: 1.5;
     background-color: #FFFBF2;
-  }
 
-  h1 {
-    text-align: left;
-    font-size: 100px;
+}
+p{
+    font-size:50px;
     font-family: 'Inter', sans-serif;
-   color: #010A10;
-  }
-ul{
-    text-align: left;
-    font-size: 50px;
-    font-family: 'Inter', sans-serif;
-   color: #A50113;
+   color: #010A10;   
+}
+strong{
+    color: #C10206;
+    font-size: 70px;
+    font-weight: bolder;
+}
 
-  }
 
-  ol {
 
-     text-align: left;
-     font-size: 50px;
-     font-family: 'Inter', sans-serif;
-    color: #A50113; 
-  }
 
   .flex-container {
     display: flex;

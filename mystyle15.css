@@ -17,20 +17,12 @@ html {
     font-family: 'Inter', sans-serif;
    color: #010A10;
   }
-ul{
+
+  p{
     text-align: left;
     font-size: 50px;
     font-family: 'Inter', sans-serif;
-   color: #A50113;
-
-  }
-
-  ol {
-
-     text-align: left;
-     font-size: 50px;
-     font-family: 'Inter', sans-serif;
-    color: #A50113; 
+   color: #010A10; 
   }
 
   .flex-container {

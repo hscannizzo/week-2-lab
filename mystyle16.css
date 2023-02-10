@@ -11,27 +11,36 @@ html {
     background-color: #FFFBF2;
   }
 
-  h1 {
+  h1{
     text-align: left;
-    font-size: 100px;
+    font-size:100px;
+    font-family: 'Inter', sans-serif;
+   color: #010A10;  
+  }
+ .movie1{
+    text-align: left;
+    font-size:50px;
     font-family: 'Inter', sans-serif;
    color: #010A10;
-  }
-ul{
+ }
+ .movie2{
     text-align: left;
-    font-size: 50px;
+    font-size:50px;
     font-family: 'Inter', sans-serif;
-   color: #A50113;
-
-  }
-
-  ol {
-
-     text-align: left;
-     font-size: 50px;
-     font-family: 'Inter', sans-serif;
-    color: #A50113; 
-  }
+   color: #c0bbaf;
+ }
+ .movie3{
+    text-align: left;
+    font-size:50px;
+    font-family: 'Inter', sans-serif;
+   color: #010A10; 
+ }
+ .movie4{
+    text-align: left;
+    font-size:50px;
+    font-family: 'Inter', sans-serif;
+   color: #c0bbaf; 
+ }
 
   .flex-container {
     display: flex;
@@ -64,6 +73,7 @@ ul{
     font-family: 'Inter', sans-serif;
    color: #010A10;
   }
+
   a:link {
     color: #010A10;
     text-decoration: none;
