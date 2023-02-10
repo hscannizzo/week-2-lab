@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    line-height: 1.5;
+    background-color: #FFFBF2;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+   color: #010A10;
+  }
+.box {
+background-image: url("https://sktchd.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-08-at-4.37.03-PM-1024x1022.jpg");
+}  
+
+
+  .flex-container {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative; 
+  }   
+
+  .flex-container > div {
+    position: absolute;
+    top: 300px;
+    text-align: left;
+    font-size:100px;
+    font-family: 'Inter', sans-serif;
+   color: #010A10;
+  }
+
+  .flex-container1 {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative;
+  }   
+  .flex-container1 > div {
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    text-align: right;
+    font-size:100px;
+    font-family: 'Inter', sans-serif;
+   color: #010A10;
+  }
+  a:link {
+    color: #010A10;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #010A10;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #C10206;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #010A10;
+    text-decoration: none;
+  }
